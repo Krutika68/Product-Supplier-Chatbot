@@ -89,36 +89,22 @@ git clone https://github.com/yourusername/product-supplier-chatbot.git
 cd product-supplier-chatbot 
 
 ### Backend Setup
-1. Create a virtual environment:
-```bash
-python -m venv venv
+1. Create a virtual environment: python -m venv venv
 
-2. Activate the virtual environment:
-```bash
-venv\Scripts\activate
+2. Activate the virtual environment: venv\Scripts\activate
 
-3. Install the dependencies:
-```bash
-pip install -r backend/requirements.txt
+3. Install the dependencies: pip install -r backend/requirements.txt
 
 4. Set up the database (MySQL/PostgreSQL) and populate it with sample data.
 
-5. Run the backend server:
-```bash
-uvicorn backend.app.main:app --reload
+5. Run the backend server: uvicorn backend.app.main:app --reload
 
 ### Frontend Setup
-1. Navigate to the frontend directory:
-```bash
-cd frontend
+1. Navigate to the frontend directory: cd frontend
 
-2. Install dependencies:
-```bash
-npm install
+2. Install dependencies: npm install
 
-3. Start the development server:
-```bash
-npm start
+3. Start the development server: npm start
 
 *** The frontend will be running on http://localhost:3000 and the backend on http://127.0.0.1:8000.
 
