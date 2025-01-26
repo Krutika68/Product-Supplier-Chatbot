@@ -85,13 +85,13 @@ This project implements an AI-powered chatbot that allows users to query a produ
 ## Installation
 
 ### Clone the Repository
-```bash
 git clone https://github.com/yourusername/product-supplier-chatbot.git
 cd product-supplier-chatbot 
 
 ### Backend Setup
 1. Create a virtual environment:
-```python -m venv venv
+```bash
+python -m venv venv
 
 2. Activate the virtual environment:
 ```bash
