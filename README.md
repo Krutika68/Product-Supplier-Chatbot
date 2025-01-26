@@ -91,8 +91,7 @@ cd product-supplier-chatbot
 
 ### Backend Setup
 1. Create a virtual environment:
-```bash
-python -m venv venv
+```python -m venv venv
 
 2. Activate the virtual environment:
 ```bash
